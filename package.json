@@ -8,5 +8,12 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "scripts" : {
+    "start" : "nodemon node debugme.js",
+    "test" : "jest",
+    "pretoto" : "mkdir fake",
+    "debug" : "node --inspect index.js",
+    "toto" : "node debugme.js"
+  }
 }
